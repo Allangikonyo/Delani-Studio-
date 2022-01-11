@@ -2,12 +2,12 @@
 #### Delani Studio Landing Page, 11/01/2022
 #### By Allan Gikonyo
 ## Description
-The following code represents the landing page of Delani Studio, a web development and consulting design studio. Delani's landing page serves as an introduction to the brand's style as well as the feel and relationship the brand has curated with its clients. Tje following is the demo user interface of the landing page. 
+The following code represents the landing page of Delani Studio, a web development and consulting design studio. Delani's landing page serves as an introduction to the brand's style as well as the feel and relationship the brand has curated with its clients. The following is the demo user interface of the landing page. 
 
 ![Delani Studio](./img/Delani-Studio-reference.jpeg)
 
 ## Setup/Installation Requirements
-The landing page has no setup/ installation requirements needed. The landing page can be accessed via any browser. The code is independent of any app. 
+The landing page has no setup/ installation requirements needed. The landing page can be accessed via any browser. The code is also independent of any app. 
 
 ## Known Bugs
 None. 

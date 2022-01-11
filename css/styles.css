@@ -42,21 +42,6 @@
     object-fit: contain;
 }
 
-/* .design {
-
-
-} */
-
-/* .development{
-
-
-}
-
-.productmanagement{
-
-
-} */
-
 .whatwedo{
     padding-top: 50px;
     text-align: center;
@@ -90,8 +75,12 @@
     grid-gap: 5px;
     grid-row-gap: 100px;
     margin: auto;
+    /* padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 150px;
+    padding-bottom: 25px;
     /* margin-left: 100px; */
-    margin-right: 100px;
+    /* margin-right: 100px;  */
 }
 
 .grid2 > div {
@@ -113,4 +102,34 @@
     padding-bottom: 25px;
     /* margin: 10px; */
     object-fit: contain;
+
+} 
+
+.form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr );
+    background-color: transparent;
+    grid-gap: 150px;
+
+}
+
+.form2{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr );
+    height: 250px;
+    background-color:transparent; 
+
+}
+
+.social-icons{
+    text-align: center;
+    display: grid;
+    object-fit: scale-down;
+    grid-template-columns: repeat(9, 1fr );
+
+}
+
+.sign-off{
+    text-align: center;
+
 }

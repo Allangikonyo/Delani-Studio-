@@ -63,10 +63,21 @@
 
 }
 
+.design-hidden{
+    display: none;
+}
+
+.development-hidden {
+    display: none;
+}
+
+.productmanagement-hidden {
+    display: none;
+}
+
 .portfolio{
     text-align: center;
 }
-
 
 .grid2{
     

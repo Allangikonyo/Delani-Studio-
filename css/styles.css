@@ -4,7 +4,15 @@
 
 .intro {
 
-    background-image: url(../img/header\ image.jpeg) ;
+    background-image: url(../img/header\ image.jpeg);
+    width: 120%;
+    height: 700px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    margin: 5px;
+    object-fit: contain;
 
 }
 
@@ -17,6 +25,14 @@
 .services {
 
     background-image: url(../img/second\ image.jpeg);
+    width: 120%;
+    height: 400px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    margin: 5px;
+    object-fit: contain;
 }
 
 /* .design {
@@ -34,12 +50,42 @@
 
 } */
 
-/* .portfolio{
+.grid1{ 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr );
+    grid-gap: 50px;
+
+}
+.grid1 > div {
+
+    height: 210px;
+    background-size: cover;
+
+}
 
 
-} */
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr );
+    grid-gap: 50px;
+    grid-row-gap: 150px;
+}
 
+.grid2 > div {
+
+    height: 210px;
+    background-size: cover;
+
+}
 .contactUs{
 
-    background-image: url(../img/lower\ background\ image.jpeg)
+    background-image: url(../img/lower\ background\ image.jpeg);
+    width: 120%;
+    height: 400px;
+    padding-left: 100px;
+    padding-right: 50px;
+    padding-top: 0px;
+    padding-bottom: 25px;
+    margin: 5px;
+    object-fit: contain;
 }

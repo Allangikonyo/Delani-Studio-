@@ -6,18 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap-5.1.3-dist/css/bootstrap.css" rel = "stylesheet" type="text/css">
     <link href= "css/styles.css" rel="stylesheet" type="text/css">
-    <script   src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src= "js/scripts.js"></script>
     <title>Delani Studio</title>
 </head>
 <body>
     <div class = "intro">
         <p><img src="img/delani logo.png" alt="Delani logo"></p>
-        <strong>WELCOME</strong>
-       <p><strong>TO DELANI STUDIO</strong></p>
-       <!-- <p style ="font-size: smaller;"> AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p> -->
+        <strong>WELCOME</strong><br><strong>TO DELANI STUDIO</strong>
+        <h5>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</h5> 
        <br>
-       <p><img src="img/mouse-click-icon.png" alt="Let's get started!"></p>
+       <img src="img/mouse-click-icon.png" alt="Let's get started!">
        
     </div>
 
@@ -27,7 +24,7 @@
         <br>
         <br>
         <br>
-        <P>When you work with us, you are a part of a team of committed collaborators. All aspects of our software development process are intergrated, interactive and agile</P>
+        <P>When you work with us, you are a part of a team of committed collaborators.<br> <br>All aspects of our software development process are intergrated, interactive and agile</P>
         <p> Our approach unifies design, development and product management to creae exceptional products.</p>
         <p>We start each project by understanding your business goals, the user's needs and the product requirements</p>
         <p>Then we help translate them into effective and elegant solutions</p>
@@ -50,97 +47,188 @@
     <div class = "grid1">
         <div class = "design-icon-showing">
             <figure>
-            <img id="image-vangogh" src="img/design icon.png" alt="Design">
-            <figcaption>DESIGN</figcaption>
+                <img id = "design" src="img/design icon.png" alt="Design">
+                <figcaption>DESIGN</figcaption>
             </figure>
+
         </div>
+
+         <div class = "design-hidden">
+                <strong>DESIGN</strong>
+                <P id = "designpar">Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+                <br><br>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</p>
+         </div>
+      
 
         <div class = "dev-icon-showing">  
             <figure>
-            <img src="img/Dev icon.png" alt="Development">
-            <figcaption>DEVELOPMENT</figcaption>
+                <img id = "dev" src="img/Dev icon.png" alt="Development">
+                <figcaption>DEVELOPMENT</figcaption>
             </figure>
         </div>
 
+        <div class = "dev-hidden">
+                <strong>DEVELOPMENT</strong>
+                <P id="devpar">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+                <br><br>They collaborate with your team to write and improve code on a daily basis, using proven practices such as test-driven development and pair programming</p>
+        </div>
+        
         <div class = "product-icon-showing">
             <figure>
-            <img src="img/Product icon.png" alt="Product">
-            <figcaption>PRODUCT MANAGEMENT</figcaption>
+                <img id = "product" src="img/Product icon.png" alt="Product">
+                <figcaption>PRODUCT MANAGEMENT</figcaption>
             </figure>
         </div>
 
-      <div class = "design-hidden">
-        <!-- <img src="../img/design icon.png" alt="Design"> -->
-        <strong>DESIGN</strong>
-        <P>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing</P>
-        <p>Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed</p>
-      </div>
-
-      <div class = "development-hidden">
-        <!-- <img src="../img/Dev icon.png" alt="Development"> -->
-        <strong>DEVELOPMENT</strong>
-        <P>All engineers are fluent in the latest enterprise, mobile and web development technologies.</P>
-        <p>They collaborate with your team to write and improve code on a daily basis, using proven practices such as test-driven development and pair programming</p>
-      </div>
-
-      <div class = "productmanagement-hidden">
-        <!-- <img src="../img/Product icon.png" alt="Product"> -->
-        <strong>PRODUCT MANAGEMENT</strong>
-        <p>Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live</p>
-        <p>This iterative process allows for changes as business requirements evolve</p>
-      </div>
-
+         <div class = "product-hidden">
+                <strong>PRODUCT MANAGEMENT</strong>
+                <p id ="productpar">Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live
+                <br><br>This iterative process allows for changes as business requirements evolve</p>
+         </div>
+       
     </div>
-
+    
     <div class = "portfolio">
-        <strong style="font-size: 25px;">PORTFOLIO</strong></div>
-    <br>
-    <br>
-
-    <div class = "grid2">
-        <div><img src="img/portfolio image 1.jpeg" alt=""> </div> 
-        <div><img src="img/portfolio image 2.jpeg" alt=""></div> 
-        <div><img src="img/portfolio image 3.jpeg" alt=""></div>
-        <div><img src="img/portfolio image 4 .jpeg" alt=""></div>
-        <div><img src="img/portfolio image 5 .jpeg" alt=""></div>
-        <div><img src="img/portfolio image 6.jpeg" alt=""></div>
-        <div><img src="img/portfolio image 7 .jpeg" alt=""></div>
-        <div> <img src="img/portfolio image 8.jpeg" alt=""></div>
+        <strong style="font-size: 25px;">PORTFOLIO</strong>
+    
     </div>
+
+    <!-- <div class = "container">
+        <div class="col-sm-12 col-md-6 col-lg-3" id="alt1">
+            <img src="img/portfolio image 1.jpeg" alt="" class= image1>
+                <div class = "overlay overlayFade">
+                    <div class = "text">BRAVE</div>
+          
+              </div>
+        </div> -->
+        
+
+     <br><br>
+    <div class = "row">
+            <div class="col-sm-12 col-md-6 col-lg-3" id="alt1">
+                <div class = "container">
+                    <img src="img/portfolio image 1.jpeg" alt="" class = image1>
+                        <div class = "overlay overlayFade">
+                            <div class = "text">BRAVE</div>
+                        </div>
+                </div> 
+            </div>
+        
+        <div class="col-sm-12 col-md-6 col-lg-3" id="alt2">
+            <div class = "container2">
+                 <img src="img/portfolio image 2.jpeg" alt="" class = image2>
+                    <div class = "overlay2 overlayFade2">
+                        <div class = "text2">ORANGE</div>
+                    </div>       
+            </div>
+        </div>
+        
+        <div class="col-sm-12 col-md-6 col-lg-3" id="alt2">
+            <div class = "container3">
+                <img src="img/portfolio image 3.jpeg" alt="" class = image3>
+                    <div class = "overlay3 overlayFade3">
+                        <div class = "text3">MIGHTY ONTARIO</div>
+                    </div>
+            </div>       
+        </div>
+
+
+        <div class="col-sm-12 col-md-6 col-lg-3" id="alt4">
+            <div class = "container4">
+                <img src="img/portfolio image 4 .jpeg" alt="" class = image4>
+                    <div class = "overlay4 overlayFade4">
+                        <div class = "text4">GREY</div>
+                    </div>
+            </div> 
+        </div>       
+        
+
+        <div class="col-sm-12 col-md-6 col-lg-3 " id="alt5">
+            <div class = "container5">
+                <img src="img/portfolio image 5 .jpeg" alt="" class = image5>
+                    <div class = "overlay5 overlayFade5">
+                        <div class = "text5">ELENA'S BLOG</div>
+                    </div>
+            </div>
+        </div> 
+            
+        <div class="col-sm-12 col-md-6 col-lg-3 " id="alt6">
+            <div class = "container6">
+                <img src="img/portfolio image 6.jpeg" alt="" class = image6>
+                    <div class = "overlay6 overlayFade6">
+                        <div class = "text6">AUDIO STUDIO</div>
+                    </div>
+            </div>
+        </div>  
+
+        <div class="col-sm-12 col-md-6 col-lg-3 " id="alt7">
+            <div class = "container7">
+                <img src="img/portfolio image 7 .jpeg" alt="" class = image7>
+                    <div class = "overlay7 overlayFade7">
+                        <div class = "text7">BURNED</div>
+                    </div>
+            </div>
+        </div>  
+
+
+        <div class="col-sm-12 col-md-6 col-lg-3" id="alt8">
+            <div class = "container8">
+                <img src="img/portfolio image 8.jpeg" alt="" class = image8>
+                    <div class = "overlay8 overlayFade8">
+                        <div class = "text8">GIRAFFE RESTAURANT</div>
+                    </div>
+            </div>               
+        </div>  
+
+    </div>
+    <br><br>
 
     <div class = "contactUs">
         
         <strong style="font-size: 25px;">CONTACT US</strong>
-        <div class = "formgrid">
-        <form class="form">
-            <input type="text" placeholder="Name" name = "Name" id= "Name">       
-            <input type="text" placeholder="Email" name = "Email" id= "Email">
-        </form>
+        <br><br><br>
+        <div class = "formgrid" id="formDelani">
+            <form class="form">
+                <input type="text" placeholder="Name" name = "Name" id= "Name">       
+                <input type="text" placeholder="Email" name = "Email" id= "Email">
+            </form>
+                <br><br>
+            <form class="form2">
+                <textarea type="text" placeholder=" Your Message here..." name = "Message" id= "Message"></textarea>
+            </form>
+            <br> <br>
+            <div class= "button"> 
 
-        <br>
-        <form class="form2">
-            <input type="text" placeholder=" Your Message here..." name = "Message" id= "Message">
-        </form>
-    </div>
+                <button type = "submit" id="submitForm"> <h6>Submit</h6></button>
+            </div>
 
-    <div class = "social-icons">
-        <div><img src="img/twitter-social-icon.png" alt=""></div>
-        <div><img src="img/dribble social icon.png" alt=""></div>
-        <div><img src="img/facebook social icon .png" alt=""></div>
-        <div><img src="img/g-plus social icon.png" alt=""></div>
-        <div><img src="img/skype-social-icon.png" alt=""></div>
-        <div><img src="img/stumble_upon-social-icon.png" alt=""></div>
-        <div><img src="img/behance social icon.png" alt=""></div>
-        <div><img src="img/pinterest-social-icon.png" alt=""></div>
-        <div><img src="img/flickr social icon.png" alt=""></div>
+        </div> 
+        
+        <br><br>
 
-    </div>
-
-    <div class = "sign-off">
-        <p>DELANI STUDIO</p>
-        <P>2022</P>
-
-    </div>
+        <div class = "social-icons">
+            <div class = "twitter"><a href="https://twitter.com/i/flow/login"><img src="img/twitter-social-icon.png" alt=""></a></div>
+            <div class = "dribble"><a href="https://dribbble.com/"><img src="img/dribble social icon.png" alt=""></a></div>
+            <div class = "facebook"><a href="https://www.facebook.com/"></a><img src="img/facebook social icon  copy.png" alt=""></a></div>
+            <div class = "g-plus"><a href="https://www.google.com/"></a><img src="img/g-plus social icon.png" alt=""></a></div>
+            <div class = "skype"><a href="https://www.skype.com/en/"></a><img src="img/skype-social-icon.png" alt=""></a></div>
+            <div class = "stumble"><a href="https://www.stumbleupon.com/"></a><img src="img/stumble_upon-social-icon.png" alt=""></a></div>
+            <div class = "behance"><a href="https://www.behance.net/"></a><img src="img/behance social icon.png" alt=""></a></div>
+            <div class = "pinterest"><a href="https://twitter.com/i/flow/login"></a><img src="img/pinterest-social-icon.png" alt=""></a></div>
+            <div class = "flickr"><a href="https://www.flickr.com/photos/flickr/"></a><img src="img/flickr social icon.png" alt=""></a></div>
     
+        </div>
+
+            <br><br><br>
+
+        <div class = "sign-off">
+            <p>DELANI STUDIO <br>2019 </p>
+    
+        </div>
+
+    </div>
+   
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="" crossorigin="anonymous"></script>
+    <script src= "js/scripts.js"></script>   
 </body>
 </html>
